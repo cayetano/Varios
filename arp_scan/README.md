@@ -1,6 +1,7 @@
 # ARPSCAN.sh
 
 Script pensado para entornos tipor raspbian, ubuntu y debian, fácilmente adaptable a otros.
+Video en : https://youtu.be/ildF_CkJ04o
 
 ## Requisito: 
 Tener una cuenta de telegram y enlazado con el servicio de CallMeBot ( gracias por un trabajo enorme )
@@ -22,7 +23,7 @@ Es -CRITICO- tiene el formato
 donde "xxxxxx" es el id del usuario de telegram ligado a CallMeBot
  
 
-*Fichero ignore.ip*
+*Fichero /opt/arpscan/ignore.ip*
 
 IP que pueden "aparecer y desaparecer" y que no serán reportadas
 
