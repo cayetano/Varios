@@ -1,4 +1,4 @@
-#ARPSCAN.sh
+# ARPSCAN.sh
 
 Script pensado para entornos tipor raspbian, ubuntu y debian, fácilmente adaptable a otros.
 
@@ -22,6 +22,6 @@ donde "xxxxxx" es el id del usuario de telegram ligado a CallMeBot
 *Fichero ignore.ip*
 IP que pueden "aparecer y desaparecer" y que no serán reportadas
 el formato es simple: una bajo la otra, por ejemplo:
->192.168.0.1
->192.168.168.2
+>192.168.0.1 
+>192.168.168.2 
 
