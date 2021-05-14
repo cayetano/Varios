@@ -11,6 +11,9 @@ Tener una cuenta de telegram y enlazado con el servicio de CallMeBot ( gracias p
 + coloca todo en /opt/arpscan
 + prepara una tarea de cron cada 5 minutos.
 
+## Instalación
+Lanzar el script _instalar_arp_scan.sh_ desde la carpeta descargada. 
+
 ## Configuracion
 
 *Fichero : /opt/arpscan/telegram.id*
