@@ -14,6 +14,9 @@ do
       name_list="$name_list,$name"
    fi
 done < .out
-url=$(echo "http://api.callmebot.com/text.php?source=web&user=@esfacilhacerlo&text=Detectados:$name_list")
-[ ! -s .out ] && wget $url
-cp .actualscan .lastscan
+if [ -f telegram.id ]; then
+   . /opt/arpscan/telegram.id
+   url=$(echo "http://api.callmebot.com/text.php?source=web&user=@$id&text=Detectados:$name_list")
+   [ ! -s .out ] && wget $url
+   cp .actualscan .lastscan
+fi
