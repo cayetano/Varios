@@ -1,5 +1,8 @@
 # ARPSCAN.sh
 
+Versión 0.3
+
+
 Script pensado para entornos tipor raspbian, ubuntu y debian, fácilmente adaptable a otros.
 Video en : https://youtu.be/ildF_CkJ04o
 
@@ -23,12 +26,12 @@ Es -CRITICO- tiene el formato
 donde "xxxxxx" es el id del usuario de telegram ligado a CallMeBot
  
 
-*Fichero /opt/arpscan/ignore.ip*
+*Fichero /opt/arpscan/ignore.mac*
 
-IP que pueden "aparecer y desaparecer" y que no serán reportadas
+MAC que pueden "aparecer y desaparecer" y que no serán reportadas
 
 El formato es simple: una bajo la otra, por ejemplo:
->192.168.0.1 
+>aa:0e:c4:ce:ac:11 
 
->192.168.168.2 
+>aa:bb_ff:11:22:33
 
